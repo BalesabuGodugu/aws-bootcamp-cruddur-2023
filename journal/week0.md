@@ -14,5 +14,5 @@
 
 i have created a budget alerm for 20USD 
 
-!,[Budget alerm],(assets//budget_alerm.png)
+![Budget alerm](assets//budget_alerm.png)
   
