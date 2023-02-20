@@ -22,7 +22,7 @@ i have created a budget threshold for 20USD and 25 USD
 
 ### app logical architecture diagram
 
-![app logical diagram](assets//cruddur logical diagram.png)
+![app logical diagram](assets//cruddur_logical_diagram.png)
 
 please find the link for logical diagram
 
