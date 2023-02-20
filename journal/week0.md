@@ -22,5 +22,10 @@ i have created a budget threshold for 20USD and 25 USD
 
 ### app logical architecture diagram
 
-![app logical diagram](assets//app_logicaldiagram.png)
+![app logical diagram](assets//cruddur logical diagram.png)
+
+please find the link for logical diagram
+
+https://lucid.app/lucidchart/959cee0a-6ffa-48f6-b637-e7b1659099f4/edit?viewport_loc=-690%2C432%2C1865%2C792%2C0_0&invitationId=inv_c9c094b1-2e80-4d0e-9d62-555675dea1c4 
+
   
