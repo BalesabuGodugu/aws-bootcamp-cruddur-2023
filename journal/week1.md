@@ -19,3 +19,10 @@ it helped to reduce the build file size drastically. i have taken spring boot ja
 
 ![image](https://user-images.githubusercontent.com/1630074/222733702-2602de49-db54-4ccf-82f4-cf28ae4adb13.png)
 
+## created ec2 instance in aws and installed docker in ec2. please find screenshot for the same.
+
+![image](https://user-images.githubusercontent.com/1630074/222763105-e2f7c07d-90e2-4a2f-8440-8be3cde29532.png)
+
+##pull the node api container and running api 
+
+![image](https://user-images.githubusercontent.com/1630074/222764023-11fea300-cc4b-4d89-a8a3-b8c6e4e3084c.png)
