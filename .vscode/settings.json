@@ -1,5 +1,20 @@
 {
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.editor.showTabs": false,
+      // When enabled IntelliSense shows `file`-suggestions.
+  "editor.suggest.showFiles": true,
+
+  // When enabled IntelliSense shows `folder`-suggestions.
+  "editor.suggest.showFolders": true,
+
+  // When enabled IntelliSense shows `function`-suggestions.
+  "editor.suggest.showFunctions": true,
+
+  // Controls whether to show or hide icons in suggestions.
+  "editor.suggest.showIcons": true,
+
+  // Controls whether suggest details show inline with the label or only in the details widget.
+  "editor.suggest.showInlineDetails": true,
     "explorer.fileNesting.enabled": true,
         "git.autofetch": true,
         "diffEditor.ignoreTrimWhitespace": false,
