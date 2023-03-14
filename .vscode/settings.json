@@ -1,4 +1,15 @@
 {
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "explorer.fileNesting.enabled": true
+    "explorer.fileNesting.enabled": true,
+        "git.autofetch": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "workbench.colorTheme": "Visual Studio Dark",
+        "workbench.iconTheme": "vscode-icons",
+        "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+    
 }
