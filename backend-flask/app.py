@@ -14,6 +14,10 @@ from services.messages import *
 from services.create_message import *
 from services.show_activity import *
 
+# AWS congnito configuration
+
+from flask_awscognito import AWSCognitoAuthentication
+
 
 # honeycomb ----
 from opentelemetry import trace
@@ -66,6 +70,10 @@ tracer = trace.get_tracer(__name__)
 app = Flask(__name__)
 
 
+app.config['AWS_COGNITO_USER_POOL_ID'] = os.getenv("WS_COGNITO_USER_POOL_ID")
+app.config['AWS_COGNITO_USER_POOL_CLIENT_ID'] = os.getenv("WS_COGNITO_USER_POOL_CLIENT_ID")
+
+aws_auth = AWSCognitoAuthentication(app)
 
 # #ROLLBAR
 
@@ -102,6 +110,7 @@ XRayMiddleware(app, xray_recorder)
 frontend = os.getenv('FRONTEND_URL')
 backend = os.getenv('BACKEND_URL')
 origins = [frontend, backend]
+
 cors = CORS(
   app, 
   resources={r"/api/*": {"origins": origins}},
