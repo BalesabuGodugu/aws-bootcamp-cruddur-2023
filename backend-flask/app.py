@@ -16,9 +16,6 @@ from services.show_activity import *
 
 # AWS congnito configuration
 
-from flask_awscognito import AWSCognitoAuthentication
-
-
 # honeycomb ----
 from opentelemetry import trace
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
@@ -70,10 +67,10 @@ tracer = trace.get_tracer(__name__)
 app = Flask(__name__)
 
 
-app.config['AWS_COGNITO_USER_POOL_ID'] = os.getenv("WS_COGNITO_USER_POOL_ID")
-app.config['AWS_COGNITO_USER_POOL_CLIENT_ID'] = os.getenv("WS_COGNITO_USER_POOL_CLIENT_ID")
+# app.config['AWS_COGNITO_USER_POOL_ID'] = os.getenv("WS_COGNITO_USER_POOL_ID")
+# app.config['AWS_COGNITO_USER_POOL_CLIENT_ID'] = os.getenv("WS_COGNITO_USER_POOL_CLIENT_ID")
 
-aws_auth = AWSCognitoAuthentication(app)
+# aws_auth = AWSCognitoAuthentication(app)
 
 # #ROLLBAR
 
